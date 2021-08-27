@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url('images/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.root {
+	padding: 2vw;
+	/* background-image: linear-gradient(to right bottom, #213764, #295089, #2c6caf, #2688d7, #00a7ff); */
+	width: 100%;
+	height: 100%;
+	/* color: white; */
+	color: rgb(33, 38, 41);
+	min-height: 100vh;
+}
+
+.heading {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 40px;
+}
+
+.sub-heading {
+	margin: 15px 0;
+	font-size: 1.8rem;
+}
+
+.location-container {
+	margin: 40px 0;
+	text-align: center;
+}
+
+.loc-input {
+	border: 3px solid #269fe6;
+	font-size: 1rem;
+	padding: 8px;
+	border-radius: 6px;
+	margin: 10px;
+	width: 270px;
+}
+
+.loc-input:invalid {
+	border: 3px solid #d34545;
+}
+
+.search-btn {
+	padding: 10px 14px;
+	background-color: #269fe6;
+	border: none;
+	font-weight: 700;
+	font-size: 1rem;
+	border-radius: 4px;
+	color: #fff;
+	margin: 10px;
+	cursor: pointer;
+}
+.health-recommendation{
+	margin-top: 50px;
+}
+
+.air-quality, .arr, .air-quality-status {
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+.component-names {
+	display: inline-block;
+	font-stretch: expanded;
+	font-size: 1.4rem;
+}
+.component-container{
+	margin-top: 50px;
+}
+.component-container div {
+	margin: 10px 0;
+}
+
+.component-val {
+	font-size: 1.5rem;
+	margin-left: 20px;
+}
+
+footer {
+	margin-top: 40px;
+	text-align: center;
+	font-size: 1.3rem;
+}
